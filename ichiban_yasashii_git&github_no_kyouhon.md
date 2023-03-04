@@ -50,13 +50,16 @@ rm -r ディレクトリ 複数可
 ファイル、ディレクトリを削除する
 
 ・ターミナル Gitコマンド コマンド→説明 p.72
-git init
+git init 絶対/相対パス
 git status
 git add 絶対/相対パス
 git diff
 git diff --cashed
 git commit
-git commit -m ""
+git commit -m "コミットメッセージ"
+git reset 
+git checkout 
+
 
 ・ターミナル Gitコマンド 説明→コマンド
 ディレクトリにローカルリポジトリ作成
