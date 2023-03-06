@@ -5,6 +5,7 @@ p.24 ワークツリーにあるファイルの状態
 p.30 GitクライアントとGitサーバー
 p.31 CUI(CLI)クライアントとGUIクライアント 70 gitk gitgui
 p.106 .gitignoreとgit rm
+p.135 origin
 
 暗記リスト
 ・ディレクトリの種類 名前→説明 p.47
@@ -62,9 +63,11 @@ L12.git config
 L14.git init 絶対/相対パス
 L15.git status
 L16.git add 絶対/相対パス
-L17.git diff
+L17.
+git diff
 git diff --cashed
-L18.git commit
+L18.
+git commit
 git commit -m "コミットメッセージ"
 
 L19.1.
@@ -78,12 +81,17 @@ git reset --hard HEAD^ HEAD~ @^
 git reset --soft HEAD^
 HEAD^^^ HEAD~~~ HEAD~3 @^^^
 
-L20.git rm ファイル絶対/相対パス
+L20.
+git rm ファイル絶対/相対パス
 git rm -r (recursive再帰的) ディレクトリ絶対/相対パス
 git rm --cached 
 
-L22.git log
+L22.
+git log
 git log -p
+L26.
+git clone GitHubのクローン用URL
+git remote
 
 ・ターミナル Gitコマンド 説明→コマンド
 gitコマンドのヘルプを確認
@@ -106,3 +114,12 @@ L20.Git管理下のファイル/ディレクトリを削除し、変更をステ
 ステージングエリアへ登録されたファイルだけ削除,ワークツリーのファイルは残る
 
 L22.ローカルリポジトリのコミット履歴を確認(差分付き)
+L26.
+GitHub上のリポジトリをローカルリポジトリに取得
+リモートリポジトリを確認
+
+・GitHubの機能 用語→説明
+L25.フォーク
+
+・GitHubの機能 説明→用語
+L25.GitHub上のリポジトリを、自分のアカウントのリポジトリとして複製
