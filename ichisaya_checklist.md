@@ -93,6 +93,14 @@ L26.
 git clone GitHubのクローン用URL
 git remote
 
+L29.
+git branch
+git branch ブランチ名
+git checkout ブランチ名
+git switch ブランチ名
+git diff ブランチ名
+
+
 ・ターミナル Gitコマンド 説明→コマンド
 gitコマンドのヘルプを確認
 L12.Gitの設定
@@ -117,6 +125,10 @@ L22.ローカルリポジトリのコミット履歴を確認(差分付き)
 L26.
 GitHub上のリポジトリをローカルリポジトリに取得
 リモートリポジトリを確認
+L29.
+ブランチ確認。* git statusでも現在のブランチ確認可能。
+ブランチ作成。ブランチ切り替え。
+指定ブランチと現在のブランチを比較。
 
 ・GitHubの機能 用語→説明
 L25.フォーク
